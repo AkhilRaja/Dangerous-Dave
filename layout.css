@@ -1,0 +1,2086 @@
+/*
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+		Name		-	Aiga.css 
+
+
+		Author 		-	Thomas Kuriakose	
+
+
+		Date		-	26-aug-2009
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+*/
+
+
+
+
+
+body {
+
+
+	/*	background: url('assets/bg.gif') center repeat-y #000000; */
+
+
+	font: 75%/1.2 verdana, lucida, sans-serif;
+
+
+	margin: 0;
+
+
+	padding: 0;
+
+
+	color: #dddddd; /* 333333; */
+
+
+ 	text-align: center; 
+
+
+	background-color: #202020;//#FFFFFF;
+
+
+	/*overflow:scroll; /* VI, if not the browser does not display correctly if the content is less than the resolution of the browser. OPERA however acts up :( */
+
+
+}
+
+
+
+
+
+h1, h2, h3, h7{
+
+
+/*font-family: "Trebuchet MS", "Geneva CE", lucida, sans-serif;*/
+
+
+font-family: arial , lucida, sans-serif;
+
+
+/*color: #69842e;
+
+
+background: url('assets/head-dec.png') right no-repeat; */
+
+
+}
+
+
+
+
+
+h1 {
+
+
+font-size: 220%;
+
+
+letter-spacing: -0.08em;
+
+
+}
+
+
+
+
+
+h2 {
+
+
+font-size: 170%;
+
+
+letter-spacing: -0.05em;
+
+
+}
+
+
+
+
+
+h3 {
+
+
+font-size: 150%;
+
+
+}
+
+
+
+
+
+h7 {
+
+
+font-size: 130%;
+
+
+}
+
+
+
+
+
+h4 {
+
+
+font-size: 90%;
+
+
+letter-spacing: -0.08em;
+
+
+font-style:italic;
+
+
+color: #999999;
+
+
+text-align: right;	
+
+
+}
+
+
+
+
+
+h5 {
+
+
+font-size: 170%;
+
+
+text-align:center;
+
+
+letter-spacing: -0.05em;
+
+
+color: #000000;
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+h6 {
+
+
+font-size: 75%;
+
+
+letter-spacing: -0.05em;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+p, ul {
+
+
+margin: 0;
+
+
+}
+
+
+
+
+
+img {border:none;}
+
+
+
+
+
+a {
+
+
+color: #000000;
+
+
+/*background-color:#FFFFFF;*/
+
+
+}
+
+
+/*
+
+
+a:hover {
+
+
+color: #000000;
+
+
+}
+
+
+
+
+
+a:visited {
+
+
+color: #000000;
+
+
+}
+
+
+*/
+
+
+#AigaMasthead {
+
+
+	background: url(assets/aigatop.gif) center no-repeat;
+
+
+	margin: auto;
+
+
+	height: 150px;
+
+
+	width: 1020px;
+
+
+	position: relative;
+
+
+	z-index: 1;
+
+
+}
+
+
+
+
+
+
+
+
+#nav-toplevel {
+
+
+margin: 0 auto;
+
+
+padding: 0; /*
+
+
+text-align: left; */
+
+
+position: relative;
+
+
+width: 600px;
+
+
+}
+
+
+
+
+
+
+
+
+#snippet {
+
+
+	width: 222px;
+
+
+	left: 725px;
+
+
+	top: 80px;
+
+
+	text-align: justify;
+
+
+	margin: auto;
+
+
+	background-color: #FFFFFF;
+
+
+	position: absolute;
+
+
+	z-index: 2;
+
+
+}
+
+
+
+
+
+#snippet ul {
+
+
+margin: 1.5em 1.5em 0 1.5em;
+
+
+padding: 0;
+
+
+list-style:none;
+
+
+}
+
+
+
+
+
+#snippet h2 {
+
+
+font-size: 170%;
+
+
+color: #000000;
+
+
+letter-spacing: -0.05em;
+
+
+}
+
+
+
+
+
+#snippet li {
+
+
+padding-left: 3px;
+
+
+
+
+
+}
+
+
+
+
+
+#snippet a {
+
+
+	display: block;
+
+
+	width: 222px;
+
+
+	height: 60px;
+
+
+	top: 0px;
+
+
+	left: 0px;
+
+
+	text-decoration: none;
+
+
+}
+
+
+
+
+
+
+
+
+#snippet_content {
+
+
+	width: 222px;
+
+
+	background-color:#333333;
+
+
+	color:#999999;
+
+
+	font-size: 10px;
+
+
+	text-align: justify;
+
+
+	padding-top: 1em;
+
+
+	padding-bottom: 5em;
+
+
+	background-image: url(assets/snippet_top.gif);
+
+
+	background-repeat: no-repeat;
+
+
+	background-position: top;
+
+
+}
+
+
+
+
+
+#snippet_content li {
+
+
+margin: 1.2em 0.5em 0 .5em;
+
+
+padding-left: 3px;
+
+
+}
+
+
+
+
+
+#nav-meta {
+
+
+	/*	background: url('assets/menu_strip.gif') bottom no-repeat; */
+
+
+	width: 1020px;
+
+
+	position: relative;
+
+
+	left: 53px;
+
+
+	top: 141px;
+
+
+	margin: auto;
+
+
+	height: 20px;
+
+
+	z-index: 2;
+
+
+}
+
+
+
+
+
+#nav-meta ul {
+
+
+list-style: none;
+
+
+margin: 0px;
+
+
+height: 0px;
+
+
+}
+
+
+
+
+
+#nav-meta a {
+
+
+	display: block;
+
+
+	width: 93px;
+
+
+	height: 20px;
+
+
+	position: absolute;
+
+
+	top: -3px;
+
+
+	left: 0px;
+
+
+}
+
+
+
+
+
+/*
+
+
+#nav-meta span {
+
+
+display: block;
+
+
+width: 0;
+
+
+height: 0;
+
+
+overflow: hidden;
+
+
+}
+
+
+*/
+
+
+#nav-meta #skip a {
+
+
+width: 0;
+
+
+height: 0;
+
+
+}
+
+
+
+
+
+/* @@@@@@@@@ MAIN MENU RELATED @@@@@@@@@@@@@@@@@@@ */
+
+
+#nav-meta #atman1 a {
+
+
+	background: url('assets/buttons/atman_button.gif') no-repeat;
+
+
+	left: 0px;
+
+
+	margin: auto;
+
+
+}
+
+
+#nav-meta #atman1 a:hover{background-position: -93px 0;}
+
+
+#nav-meta #atman1 a:active{background-position: -186px 0;}
+
+
+
+
+
+#nav-meta #atman2 a {
+
+
+	background: url('assets/buttons/atman_button.gif') no-repeat;
+
+
+	left: 80px;
+
+
+	margin: auto;
+
+
+}
+
+
+#nav-meta #atman2 a:hover{background-position: -93px 0;}
+
+
+#nav-meta #atman2 a:active{background-position: -186px 0;}
+
+
+
+
+
+#nav-meta #cube a {
+
+
+	background: url('assets/buttons/cube_button.gif') no-repeat;
+
+
+	left: 0px;
+
+
+	margin: auto;
+
+
+}
+
+
+#nav-meta #cube a:hover{background-position: -93px 0;}
+
+
+#nav-meta #cube a:active{background-position: -186px 0;}
+
+
+
+
+
+#nav-meta #io a {
+
+
+	background: url('assets/buttons/io_button.gif') no-repeat;
+
+
+	left: 80px;
+
+
+	margin: auto;
+
+
+}
+
+
+#nav-meta #io a:hover{background-position: -93px 0;}
+
+
+#nav-meta #io a:active{background-position: -186px 0;}
+
+
+
+
+
+
+
+
+/* @@@@@@@@@ AIGA RELATED @@@@@@@@@@@@@@@@@@@ */
+
+
+#nav-meta #news a {
+
+
+	background: url('assets/buttons/news_button.gif') no-repeat;
+
+
+	left: 400px;
+
+
+	/*margin: auto;*/
+
+
+}
+
+
+#nav-meta #news a:hover{background-position: -93px 0;}
+
+
+#nav-meta #news a:active{background-position: -186px 0;}
+
+
+
+
+
+#nav-meta #blog a {
+
+
+background: url('assets/buttons/blog_button.gif') no-repeat;
+
+
+left: 480px;
+
+
+}
+
+
+#nav-meta #blog a:hover{background-position: -93px 0;}
+
+
+#nav-meta #blog a:active{background-position: -186px 0;}
+
+
+
+
+
+#nav-meta #press a {
+
+
+background: url('assets/buttons/press_button.gif') no-repeat;
+
+
+left: 560px;
+
+
+}
+
+
+#nav-meta #press a:hover{background-position: -93px 0;}
+
+
+#nav-meta #press a:active{background-position: -186px 0;}
+
+
+
+
+
+#nav-meta #faqs a {
+
+
+background: url('assets/buttons/faqs_button.gif') no-repeat;
+
+
+left: 640px;
+
+
+}
+
+
+#nav-meta #faqs a:hover{background-position: -93px 0;}
+
+
+#nav-meta #faqs a:active{background-position: -186px 0;}
+
+
+
+
+
+#nav-meta #friends a {
+
+
+background: url('assets/buttons/friends_button.gif') no-repeat;
+
+
+left: 720px;
+
+
+}
+
+
+#nav-meta #friends a:hover{background-position: -93px 0;}
+
+
+#nav-meta #friends a:active{background-position: -186px 0;}
+
+
+
+
+
+#nav-meta #about a {
+
+
+background: url('assets/buttons/about_button.gif') no-repeat;
+
+
+left: 800px;
+
+
+}
+
+
+#nav-meta #about a:hover{background-position: -93px 0;}
+
+
+#nav-meta #about a:active{background-position: -186px 0;}
+
+
+/* @@@@@@@@@ AIGA RELATED @@@@@@@@@@@@@@@@@@@ */
+
+
+
+
+
+
+
+
+/*@@@@@@@@@@@@ IO RELATED @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+/* @@@@@@@@@ CUBE RELATED @@@@@@@@@@@@@@@@@@@ */
+
+
+
+
+
+#snippet #cube_download a {
+
+
+	background: url('games/gameassets/buttons/cube_dnld_button.gif') no-repeat;
+
+
+	left: 0px;	
+
+
+	top: 0px;
+
+
+}
+
+
+
+
+
+#snippet #cube_download a:hover{background-position: -222px 0;}
+
+
+#snippet #cube_download a:active{background-position: -444px 0;}
+
+
+
+
+
+
+
+
+/* @@@@@@@@@ CUBE RELATED @@@@@@@@@@@@@@@@@@@ */
+
+
+
+
+
+
+
+
+/* @@@@@ LEFT MENU RELATED @@@@@@@@@@@@@@@ */
+
+
+
+
+
+/*
+
+
+	width: 222px;
+
+
+	left: 725px;
+
+
+	top: 80px;
+
+
+	text-align: justify;
+
+
+	margin: auto;
+
+
+	background-color: #FFFFFF;
+
+
+	position: absolute;
+
+
+	z-index: 2;
+
+
+*/
+
+
+#left_menubar {
+
+
+/*
+
+
+	background-color: #b6c36d; 
+
+
+	background-image: url(assets/snippet_bot.gif);
+
+
+	background-repeat: no-repeat;
+
+
+*/	margin-left: auto; /* 60px */
+
+
+	left : 54px;
+
+
+	top: -50px;
+
+
+	width: 60px; /*160px*/
+
+
+	height: 600px;
+
+
+	position: absolute; 
+
+
+/*	position: relative; */
+
+
+}
+
+
+
+
+
+#left_menubar_top {
+
+
+	width: 50px;
+
+
+	
+
+
+	height: 17px;
+
+
+	position: absolute;
+
+
+	left: 0px;
+
+
+	top: 70px;
+
+
+	background-color: #CCCCCC;
+
+
+	background-image: url(assets/leftbar_top.gif);
+
+
+	background-repeat: no-repeat;
+
+
+}
+
+
+
+
+
+#left_menubar_bottom {
+
+
+	width: 50px;	
+
+
+	height: 17px;
+
+
+	position: absolute;
+
+
+	left: 0px;
+
+
+	top: 220px;
+
+
+	background-image: url(assets/leftbar_bot.gif);
+
+
+	background-repeat: no-repeat;
+
+
+}
+
+
+
+
+
+
+
+
+#left_menubar ul {
+
+
+list-style:none;
+
+
+margin: 0px;
+
+
+height: 0px;
+
+
+}
+
+
+
+
+
+
+
+
+#left_menubar a {
+
+
+
+
+
+	display: block;
+
+
+	width: 150px;
+
+
+	height: 25px;
+
+
+	position: absolute;
+
+
+	top: 0px;
+
+
+	left: 0px;
+
+
+	
+
+
+}
+
+
+
+
+
+/*
+
+
+#nav-meta span {
+
+
+display: block;
+
+
+width: 0;
+
+
+height: 0;
+
+
+overflow: hidden;
+
+
+}
+
+
+*/
+
+
+#left_menubar #skip a {
+
+
+width: 0;
+
+
+height: 0;
+
+
+}
+
+
+
+
+
+/* @@@@@@@@@ MAIN MENU RELATED @@@@@@@@@@@@@@@@@@@ */
+
+
+
+
+
+
+
+
+#left_menubar #atmangames a {
+
+
+	background: url('assets/buttons/atmangames_button.gif') no-repeat;
+
+
+	left: 0px;
+
+
+	top : 140px;
+
+
+	
+
+
+}
+
+
+#left_menubar #atmangames a:hover{background-position: 0px 0;}
+
+
+#left_menubar #atmangames a:active{background-position: 0px 0;}
+
+
+
+
+
+
+
+
+
+
+
+#left_menubar #io a {
+
+
+	background: url('games/gameassets/buttons/io_button.gif') no-repeat;
+
+
+	left: 0px;
+
+
+	top : 80px;
+
+
+	height: 40px;
+
+
+	margin: auto;
+
+
+}
+
+
+#left_menubar #io a:hover{background-position: -150px 0;}
+
+
+#left_menubar #io a:active{background-position: -300px 0;}
+
+
+
+
+
+
+
+
+#left_menubar #iogame a {
+
+
+	background: url('games/gameassets/buttons/thegame_button.gif') no-repeat;
+
+
+	left: 0px;
+
+
+	top : 120px;
+
+
+	
+
+
+}
+
+
+#left_menubar #iogame a:hover{background-position: -150px 0;}
+
+
+#left_menubar #iogame a:active{background-position: -300px 0;}
+
+
+
+
+
+#left_menubar #inprogress a {
+
+
+background: url('games/gameassets/buttons/inprogress_button.gif') no-repeat;
+
+
+	left: 0px;
+
+
+	top : 210px;
+
+
+}
+
+
+#left_menubar #inprogress a:hover{background-position: 0px 0;}
+
+
+#left_menubar #inprogress a:active{background-position: 0px 0;}
+
+
+
+
+
+#left_menubar #cube_game a {
+
+
+background: url('games/gameassets/buttons/cube_button.gif') no-repeat;
+
+
+	left: 0px;
+
+
+	top : 240px;
+
+
+}
+
+
+#left_menubar #cube_game a:hover{background-position: -150px 0;}
+
+
+#left_menubar #cube_game a:active{background-position: -300px 0;}
+
+
+
+
+
+#left_menubar #faqs a {
+
+
+background: url('games/gameassets/buttons/faqs_button.gif') no-repeat;
+
+
+	left: 0px;
+
+
+	top : 200px;
+
+
+}
+
+
+#left_menubar #faqs a:hover{background-position: -93px 0;}
+
+
+#left_menubar #faqs a:active{background-position: -186px 0;}
+
+
+
+
+
+#left_menubar #cubehome a {
+
+
+	background: url('games/gameassets/buttons/cube_home_button.gif') no-repeat;
+
+
+	left: 0px;
+
+
+	top : 140px;
+
+
+	
+
+
+}
+
+
+#left_menubar #cubehome a:hover{background-position: -150px 0;}
+
+
+#left_menubar #cubehome a:active{background-position: -300px 0;}
+
+
+
+
+
+
+
+
+#left_menubar #friends a {
+
+
+background: url('games/gameassets/buttons/friends_button.gif') no-repeat;
+
+
+	left: 0px;
+
+
+	top : 220px;
+
+
+}
+
+
+#left_menubar #friends a:hover{background-position: -93px 0;}
+
+
+#left_menubar #friends a:active{background-position: -186px 0;}
+
+
+
+
+
+#left_menubar #about a {
+
+
+background: url('games/gameassets/buttons/about_button.gif') no-repeat;
+
+
+	left: 0px;
+
+
+	top : 240px;
+
+
+}
+
+
+#left_menubar #about a:hover{background-position: -93px 0;}
+
+
+#left_menubar #about a:active{background-position: -186px 0;}
+
+
+/* @@@@@@@@@ AIGA RELATED @@@@@@@@@@@@@@@@@@@ */
+
+
+
+
+
+
+
+
+/*@@@@@@@@@ LEFT MENU ENDS HERE @@@@@@@@@@@@@@ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#container {
+
+
+	text-align: justify;
+	
+
+
+	top: 0px;
+
+
+	width: 1020px;
+
+
+	margin: auto;
+
+
+	position: relative;
+
+
+	background: url(assets/bg.gif) repeat-y;
+
+
+}
+
+
+
+
+
+#container li {
+
+
+	padding-top: .5em;
+
+
+	list-style: square;
+
+
+/*	list-style:block;*/
+
+
+	}
+
+
+#myCanvas
+{
+	align-content:stretch;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#content {
+
+
+	margin-left: 110px; /* 60px */
+
+
+	padding-top: 5em;
+
+
+	padding-right: 2em;
+
+
+	padding-bottom: 10em;
+
+
+	padding-left: 2em;
+
+
+	width: 600px; /*620px*/
+
+
+	z-index: 1;
+
+
+	/*	position: absolute;*/
+
+
+/*	position: relative;*/
+
+
+	/*position: relative; *//*absolute;*/
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+#nav-subs {
+
+
+	background: url(assets/sub_menu_top.gif) top no-repeat;
+
+
+	width: 190px;
+
+
+	height: 200px;
+
+
+	position: absolute;
+
+
+	top: 50px;
+
+
+	left: 750px;
+
+
+	z-index: 2;
+
+
+}
+
+
+
+
+
+#nav-subs ul {
+
+
+margin: 1.5em 1.5em 0 1.5em;
+
+
+padding: 0;
+
+
+list-style: none;
+
+
+}
+
+
+
+
+
+#nav-subs li {
+
+
+background: url('assets/side-bul.png') left no-repeat;
+
+
+padding-left: 12px;
+
+
+}
+
+
+
+
+
+#nav-subs a {
+
+
+/*color: #b6c36d; */
+
+
+text-decoration: none;
+
+
+}
+
+
+
+
+
+#nav-section {
+
+
+background: url('assets/side-mid.png') bottom no-repeat;
+
+
+padding-bottom: 2.5em;
+
+
+}
+
+
+
+
+
+#nav-supp {
+
+
+background: url('assets/side-bot.png') bottom no-repeat;
+
+
+padding-bottom: 1.5em;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+#info-site {
+
+
+	font-size: 90%;
+
+
+	color:  #bf8c01;
+
+
+	background: url(assets/footer.gif) top no-repeat #FFFFFF;
+
+
+	height: 80px;
+
+
+	width: 1020px;
+
+
+	margin: auto;
+
+
+	position: relative;
+
+
+	z-index: 1;
+
+
+	padding-top: 2.5em;
+
+
+}
+
+
+
+
+
+#info-site li {
+
+
+list-style-type:none;
+
+
+}
+
+
+#info-site a {
+
+
+color: #cc9966; /*#996600; /*#e0d194; */ /*bf8c01; */
+
+
+text-decoration: none;
+
+
+}
+
+
+
+
+
+#info-site a:hover {
+
+
+color: #ffc600;
+
+
+background: #bf8c01;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+IE bug hides the assets behind the background of #para1 because that div is 'relative', and the floated image is not. FIX is to make the floated image also 'relative', or else remove 'relative' from #para1.
+
+
+*/
+
+
+.floatright {
+
+
+	position: relative;
+
+
+	float: right;
+
+
+	width: 128px;
+
+
+	margin: 0 0 10px 10px;
+
+
+/*	background-color: #fff; */
+
+
+	padding: 10px;
+
+
+	border-top: 1px solid #999;
+
+
+	border-right: 2px solid #555;
+
+
+	border-bottom: 2px solid #555;
+
+
+	border-left: 1px solid #999;
+
+
+	clear: right;
+
+
+	
+
+
+}
+
+
+
+
+
+div.floatright assets
+
+
+{
+
+
+
+
+
+border-top: 2px solid #555;
+
+
+border-right: 1px solid #999;
+
+
+border-bottom: 1px solid #999;
+
+
+border-left: 2px solid #555;
+
+
+/*display:block; */
+
+
+
+
+
+}
+
+
+
+
+
+/* the following is a hack for IE. In order to keep the text from flowing to the right of the items, we need to insert a clearing hack. */
+
+
+div.clearer {
+
+
+clear: left; 
+
+
+line-height: 0px; 
+
+
+height: 0;}
+
+
+
+
+
+/*
+
+
+IE bug hides the assets behind the background of #para1 because that div is 'relative', and the floated image is not. FIX is to make the floated image also 'relative', or else remove 'relative' from #para1.
+
+
+*/
+
+
+.floatleft {
+
+
+	position: relative;
+
+
+	float: left;
+
+
+	width: 128px;
+
+
+	margin: 30px 30px 0px 0px;
+
+
+	padding: 10px;
+
+
+	border-top: 1px solid #999;
+
+
+	border-right: 2px solid #555;
+
+
+	border-bottom: 2px solid #555;
+
+
+	border-left: 1px solid #999;
+
+
+	clear: left;
+
+
+	
+
+
+}
+
+
+
+
+
+div.left assets
+
+
+{
+
+
+border-top: 2px solid #555;
+
+
+border-right: 1px solid #999;
+
+
+border-bottom: 1px solid #999;
+
+
+border-left: 2px solid #555;
+
+
+}
+
+
+
+
+
+#menu_news {
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#cube1 {
+
+
+	position: relative;
+
+
+	height: 130px;
+
+
+	width: 470px; /*520px*/
+
+
+	background-image: url(games/gameassets/cubeshot.gif);
+
+
+}
+
+
+
+
+
+#backgroundlayer {
+
+
+	position: absolute;
+
+
+	height: 736px;
+
+
+	width: 1600px;
+
+
+	background: url(assets/back.gif) no-repeat; 
+
+
+	left: 0px;
+
+
+	top: 0px;
+
+
+}
+
+
+
+
+
+
+
+
+#leftbar {
+
+
+	position: absolute;
+
+
+	width: 15%;
+
+
+	left: 0px;
+
+
+}
+
+
+
+
+
+#info-site #w3clayer a {
+
+
+	background: url(assets/w3c.gif) no-repeat;
+
+
+	height: 31px;
+
+
+	width: 176px;
+
+
+	left: 100px;
+
+
+	position: absolute;
+
+
+	top: 17px;
+
+
+}
+
+
+
+
+
+#copyright {
+
+
+	background: url(assets/sidestrip.gif) no-repeat;
+
+
+	position: absolute;
+
+
+	width: 17px;
+
+
+	left: 33px;
+
+
+	top: 20px;
+
+
+	height: 350px;
+
+
+}
+
+
+
+
+
+#snippet_bottom {
+
+
+	background-image: url(assets/snippet_bot.gif);
+
+
+	background-repeat: no-repeat;
+
+
+	width: 222px;
+
+
+	position: relative;
+
+
+	height: 24px;
+
+
+	background-position: bottom;
+
+
+}
+
+
+#pclogo {
+
+
+	background-color: #FFFFFF;
+
+
+	background-image: url(games/gameassets/pconline.gif);
+
+
+	background-repeat: no-repeat;
+
+
+	background-position: left bottom;
+
+
+	position: relative;
+
+
+	height: 70px;
+
+
+	width: 222px;
+
+
+}
+
+

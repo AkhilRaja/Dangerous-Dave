@@ -1,0 +1,49 @@
+/*
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+		Name		-	class_sample.css 
+		Author 		-	Sajith Joseph.C
+		Date		-	24-Dec-2012
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+*/
+
+body {
+	font: 90%/1.2 arial, myriad, verdana, lucida, sans-serif;
+	margin: 0;
+	padding: 0;
+	color: #FFFFFF;
+	text-align: center; 
+	background-color: #151515; 
+}
+
+
+
+#headerMasthead {
+	background: url(assets/headerimage.gif) center no-repeat;
+	margin: auto;
+	height: 150px;
+	width: 1020px;
+	position: relative;
+	z-index: 1;
+}
+
+#container {
+	text-align: justify;
+	top: 0px;
+	width: 1024px;
+	margin: auto;
+	position: relative;
+	background-color: #222222; 
+	/*background: url(assets/bg.gif) repeat-y;*/
+}
+
+
+#my_canvas_container {
+	text-align: justify;
+	top: 0px;
+	left:00px;
+	width: 300px;
+	margin: auto;
+	position: relative;
+	background-color: #FFFFFF; 
+	/*background: url(assets/bg.gif) repeat-y;*/
+}
