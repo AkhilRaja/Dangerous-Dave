@@ -10,4 +10,4 @@ Logic is much simpler and easier to understand and concepts implemented are real
 
 
 
-![Alt text](Screenshots/1.PNG?raw=true "Optional Title")
+![Alt text](Screenshots/1.png?raw=true "Optional Title")
